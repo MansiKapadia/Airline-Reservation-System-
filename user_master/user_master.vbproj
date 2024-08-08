@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DDC8EB6-05B3-4F07-B763-BF198CB628D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>user_master.My.MyApplication</StartupObject>
+    <RootNamespace>user_master</RootNamespace>
+    <AssemblyName>user_master</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>user_master.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>user_master.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_log.Designer.vb">
+      <DependentUpon>admin_log.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_master.Designer.vb">
+      <DependentUpon>admin_master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_MDI.Designer.vb">
+      <DependentUpon>admin_MDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_MDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="book.Designer.vb">
+      <DependentUpon>book.vb</DependentUpon>
+    </Compile>
+    <Compile Include="book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filght_master.Designer.vb">
+      <DependentUpon>filght_master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="filght_master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userMID.Designer.vb">
+      <DependentUpon>userMID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userMID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_master.Designer.vb">
+      <DependentUpon>user_master.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="user_login.Designer.vb">
+      <DependentUpon>user_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewbook.Designer.vb">
+      <DependentUpon>viewbook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewbook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addflight.Designer.vb">
+      <DependentUpon>addflight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addflight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewflight.Designer.vb">
+      <DependentUpon>viewflight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewflight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewuser.Designer.vb">
+      <DependentUpon>viewuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admin_log.resx">
+      <DependentUpon>admin_log.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_master.resx">
+      <DependentUpon>admin_master.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_MDI.resx">
+      <DependentUpon>admin_MDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="book.resx">
+      <DependentUpon>book.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filght_master.resx">
+      <DependentUpon>filght_master.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userMID.resx">
+      <DependentUpon>userMID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_master.resx">
+      <DependentUpon>user_master.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_login.resx">
+      <DependentUpon>user_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewbook.resx">
+      <DependentUpon>viewbook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addflight.resx">
+      <DependentUpon>addflight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewflight.resx">
+      <DependentUpon>viewflight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewuser.resx">
+      <DependentUpon>viewuser.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsubmit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsubmit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_page.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filght_master.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_but.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_but1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_but2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_but3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_master1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_avtar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_avtar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_master2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_master3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_avtar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewflight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_but5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_btn3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
