@@ -1,2 +1,2 @@
 # Airline-Reservation-System-
-I developed this portfolio webiste using Asp.net .
+I developed this portfolio webiste using VB.net .
